@@ -18,3 +18,4 @@ Type=Application
 Categories=Development;
 EOL
 
+echo -e "\e[32mPostman was installed successfully\e[0m"
