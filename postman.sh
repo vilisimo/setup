@@ -14,6 +14,7 @@ Name=Postman
 Exec=postman
 Icon=/opt/Postman/resources/app/assets/icon.png
 Terminal=false
+Type=Application
 Categories=Development;
 EOL
 
