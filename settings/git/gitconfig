@@ -1,0 +1,8 @@
+  [user]                                                                          
+  [push]                                                                          
+          default = simple                                                        
+  [core]                                                                          
+          editor = vim                                                            
+  [alias]                                                                         
+          lg = log --all --decorate --oneline --graph                             
+          ds = diff --staged 
