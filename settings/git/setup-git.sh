@@ -3,7 +3,7 @@
 read -p "Please enter your username: " username
 read -p "Please enter your email: " email
 
-sed -i "2i\ \ \ \ name = $username" gitconfig
-sed -i "3i\ \ \ \ email = $email" gitconfig
+sed -i "s/placeholdername/$username/" gitconfig
+sed -i "s/placeholderemail/$email/" gitconfig
 
 mv gitconfig ~/.gitconfig

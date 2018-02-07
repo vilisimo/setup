@@ -1,4 +1,6 @@
 [user]
+    name = placeholdername 
+    email = placeholderemail 
 [push]
     default = simple
 [core]
