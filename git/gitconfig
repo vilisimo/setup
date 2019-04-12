@@ -10,3 +10,4 @@
     ds = diff --staged
     ol = log --oneline
     restage = update-index --again
+    alias = ! git config -l | grep alias | cut -c 7-
