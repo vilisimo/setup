@@ -1,15 +1,15 @@
 [user]
-    name = vilisimo 
-    email = vilisimo@gmail.com 
+        name = vilisimo 
+        email = vilisimo@gmail.com 
 [push]
-    default = simple
+        default = simple
 [core]
-    editor = vim
+        editor = vim
 [alias]
-    lg = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s :: %C(bold blue)%ce %C(reset)%C(green)(%cr)'
-    ca = commit --amend
-    ds = diff --staged
-    ol = log --oneline
-    cane = commit --amend --no-edit
-    restage = update-index --again
-    alias = ! git config -l | grep alias | cut -c 7-
+        lg = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s :: %C(bold blue)%ce %C(reset)%C(green)(%cr)'
+        ca = commit --amend
+        ds = diff --staged
+        ol = log --oneline
+        cane = commit --amend --no-edit
+        restage = update-index --again
+        alias = ! git config -l | grep alias | cut -c 7-
