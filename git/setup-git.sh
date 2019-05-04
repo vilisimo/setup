@@ -6,11 +6,10 @@ read -p "Please enter your email: " email
 sed -i "s/placeholdername/$user/" gitconfig
 sed -i "s/placeholderemail/$email/" gitconfig
 
-echo "Copying global git config to ~/ ..."
-cp gitconfig ~/.gitconfig
-
 echo "Copying global gitignore to ~/ ..."
 cp gitignore_global ~/.gitignore_global
-git config --global core.excludesfile '~/.gitignore_global'
+
+echo "Copying global git config to ~/ ..."
+cp gitconfig ~/.gitconfig
 
 echo "Git was successfully set up"

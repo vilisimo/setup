@@ -5,6 +5,7 @@
         default = simple
 [core]
         editor = vim
+        excludesfile = ~/.gitignore_global
 [alias]
         lg = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s :: %C(bold blue)%ce %C(reset)%C(green)(%cr)'
         ca = commit --amend
