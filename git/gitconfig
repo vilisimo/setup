@@ -9,8 +9,10 @@
 [alias]
         lg = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s :: %C(bold blue)%ce %C(reset)%C(green)(%cr)'
         ca = commit --amend
+        cm = commit -m
         ds = diff --staged
         ol = log --oneline
+        cam = commit -am
         all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
         cane = commit --amend --no-edit
         restage = update-index --again
