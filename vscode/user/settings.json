@@ -1,0 +1,45 @@
+{
+    "editor.accessibilitySupport": "off",
+    "editor.mouseWheelZoom": true,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true,
+    "editor.minimap.renderCharacters": false,
+    "files.trimFinalNewlines": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.rulers": [
+        120
+    ],
+    "editor.detectIndentation": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "prettier.packageManager": "yarn",
+}
