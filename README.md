@@ -5,3 +5,4 @@ Currently includes:
 * Vim
 * Git
 * Postman
+* Visual Studio Code
