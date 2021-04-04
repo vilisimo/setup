@@ -42,6 +42,11 @@
         "source.fixAll.eslint": true
     },
     "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
     "prettier.jsxBracketSameLine": true,
-    "prettier.semi": false
+    "prettier.semi": false,
+    "typescript.preferences.quoteStyle": "single",
+    "files.exclude": {
+        "node_modules/": true
+    }
 }
