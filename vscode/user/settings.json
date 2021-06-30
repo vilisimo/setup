@@ -48,5 +48,6 @@
     "typescript.preferences.quoteStyle": "single",
     "files.exclude": {
         "node_modules/": true
-    }
+    },
+    "jest.autoRun": {"watch": false, "onSave": "test-file"}
 }
