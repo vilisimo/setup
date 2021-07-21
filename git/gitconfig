@@ -21,6 +21,7 @@
         alias = ! git config -l | grep alias | cut -c 7-
         ignore = update-index --assume-unchanged
         unignore = update-index --no-assume-unchanged
-        hidden = !git ls-files -v | grep "^[[:lower:]]"        
+        hidden = !git ls-files -v | grep "^[[:lower:]]"
+	cleanup = fetch --all --prune
 [pull]
 	ff = only
