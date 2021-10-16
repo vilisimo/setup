@@ -13,12 +13,12 @@
         120
     ],
     "editor.detectIndentation": false,
-    "[typescript]": {
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.tabSize": 2,
     },
-    "[typescriptreact]": {
+    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.tabSize": 2,
@@ -41,13 +41,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
-    "prettier.jsxBracketSameLine": true,
-    "prettier.semi": false,
-    "typescript.preferences.quoteStyle": "single",
-    "files.exclude": {
-        "node_modules/": true
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "debug.javascript.autoAttachFilter": "always",
+    "editor.formatOnSaveMode": "modifications",
+    "jest.autoRun": {
+        "watch": false,
+        "onSave": "test-file"
     },
-    "jest.autoRun": {"watch": false, "onSave": "test-file"}
+    "editor.formatOnSave": true
 }
