@@ -8,4 +8,4 @@ else
 fi
 
 echo "Copied aliases to ~/.bash_aliases"
-echo "NOTE: make sure ~/.bashrc loads them!"
+echo "NOTE: make sure ~/.bashrc loads them! See: https://askubuntu.com/a/17537"
