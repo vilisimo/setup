@@ -13,6 +13,7 @@
         co = checkout
         ds = diff --staged
         ol = log --oneline
+        vc = log --format=%B -n 1
         cam = commit -am
         dno = diff --name-only
         all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
@@ -22,6 +23,6 @@
         ignore = update-index --assume-unchanged
         unignore = update-index --no-assume-unchanged
         hidden = !git ls-files -v | grep "^[[:lower:]]"
-	cleanup = fetch --all --prune
+    	cleanup = fetch --all --prune
 [pull]
 	ff = only
