@@ -14,6 +14,7 @@
         ds = diff --staged
         ol = log --oneline
         vc = log --format=%B -n 1
+        rb = branch -m
         cam = commit -am
         dno = diff --name-only
         all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
@@ -25,4 +26,4 @@
         hidden = !git ls-files -v | grep "^[[:lower:]]"
     	cleanup = fetch --all --prune
 [pull]
-	ff = only
+        ff = only
