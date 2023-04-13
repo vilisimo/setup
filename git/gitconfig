@@ -1,6 +1,6 @@
 [user]
-        name = placeholdername
-        email = placeholderemail
+        name = vilisimo
+        email = vilisimo@gmail.com
 [push]
         default = simple
 [core]
@@ -20,7 +20,7 @@
         all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
         cane = commit --amend --no-edit
         restage = update-index --again
-        alias = ! git config -l | grep alias | cut -c 7-
+        alias = !git config -l | grep alias | cut -c 7-
         ignore = update-index --assume-unchanged
         unignore = update-index --no-assume-unchanged
         hidden = !git ls-files -v | grep "^[[:lower:]]"
