@@ -15,6 +15,7 @@
         ol = log --oneline
         vc = log --format=%B -n 1
         rb = branch -m
+        pb = push -u origin HEAD
         cam = commit -am
         dno = diff --name-only
         all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
