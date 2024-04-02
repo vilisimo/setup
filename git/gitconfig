@@ -25,6 +25,7 @@
         ignore = update-index --assume-unchanged
         unignore = update-index --no-assume-unchanged
         hidden = !git ls-files -v | grep "^[[:lower:]]"
-    	cleanup = fetch --all --prune
+        cleanup = fetch --all --prune
+        fpush = push origin HEAD --force-with-lease
 [pull]
         ff = only
