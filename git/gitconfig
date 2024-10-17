@@ -13,7 +13,7 @@
         co = checkout
         ds = diff --staged
         ol = log --oneline
-        vc = log --format=%B -n 1
+        vc = log -n 1
         rb = branch -m
         pb = push -u origin HEAD
         cam = commit -am
