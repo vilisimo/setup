@@ -27,5 +27,6 @@
         hidden = !git ls-files -v | grep "^[[:lower:]]"
         cleanup = fetch --all --prune
         fpush = push origin HEAD --force-with-lease
+        find = log --oneline -S
 [pull]
         ff = only
