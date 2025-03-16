@@ -30,3 +30,5 @@
         find = log --oneline -S
 [pull]
         ff = only
+[init]
+        defaultBranch = main
